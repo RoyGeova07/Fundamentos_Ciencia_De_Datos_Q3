@@ -1,0 +1,59 @@
+ASI DICE LA BUENA TEORIA MUCHACHO:
+
+"**OJOOOOOOO, LA MEDIANA ES MAS ROBUSTA CUANDO HAY VALORES EXTREMOS**"
+
+MEDIA:valor que se obtiene al sumar todos los datos de un conjunto y dividir el resultado entre 
+la cantidad total de esos datos.
+
+
+MEDIANA:valor que ocupa la posición central en un conjunto de datos ordenados de menor a mayor.
+
+Si la media y la mediana son practicamente iguales, eso nos dice
+que la distribucion no presenta una asimetria fuerte
+
+
+MODA: valor que aparece con mayor frecuencia en un conjunto de datos
+
+
+DESVIACION ESTANDAR: Medida estadistica que indica que tan dispersos o separados estan los datos en 
+relacion con su valor promedio o media
+
+La desviacion estandar se usa cuando se quiere comunicar un resultado y graficarlo
+|--------------------------------------------------------------------------------------------------------------------------
+|Rango del CV (%),|  Nivel de Variabilidad |  Interpretación de los Datos
+|0% a 10%,        |Muy Baja,               |Datos sumamente homogéneos y precisos. Proceso muy controlado.
+|10% a 20%,       |Baja,                   |Buena homogeneidad y estabilidad.
+|20% a 30%,       |Moderada / Mediana,     |Variabilidad aceptable, aunque se empieza a notar dispersión.
+|Mayor a 30%,     |Alta,                   |Datos muy heterogéneos y dispersos. La media deja de ser representativa.
+|--------------------------------------------------------------------------------------------------------------------------
+
+
+VARIANZA: medida estadística que indica qué tan dispersos o separados están los datos con respecto a su valor centro
+
+Se usa la varianza cuando un software o una fórmula matemática necesite analizar 
+el comportamiento estadístico profundo o comparar variabilidades.
+
+
+#Cuartiles 
+
+
+SESGO: Error sistemático que distorsiona la información y aleja los resultados de la realidad
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Rango de df['col'].skew()  |  Nivel de Sesgo    |  Interpretación / Estado de los Datos
+|−0.5 y 0.5,                |Bajo/Casi Simétrico,|La distribución es bastante balanceada. La media y la mediana son muy similares.
+|−1.0 y −0.5 | 0.5 y 1.0,   |Moderado,           |Existe una asimetría clara pero moderada. La media empieza a desplazarse.
+|Menor a −1.0 O mayor a 1.0,|Alto/Fuerte,        |Distribución fuertemente asimétrica. Hay presencia de outliers o colas muy pesadas.
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CURTOSIS:es una medida estadística que indica la concentración o densidad de datos en el centro 
+y en las colas de una distribución, comparándola con una distribución normal (campana de Gauss).
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Nivel/Tipo,           |  Valor de .kurt(),    |  Forma de la Distribución,                  |  Significado e Impacto
+|Alta(Leptocúrtica),   |>0.5 (o mayor a 1.0),  |Muy elevada en el centro y con colas pesadas,|Gran concentración de datos en el centro, pero con presencia alta de valores extremos o atípicos.
+|Moderada(Mesocúrtica),|Entre −0.5 y 0.5,      |Forma de campana clásica de Gauss,           |Variabilidad y frecuencia de valores atípicos estándar / esperable.
+|Baja(Platicúrtica),   |<−0.5 (o menor a −1.0),|Plana, achatada y con colas ligeras,         |Datos dispersos de manera más uniforme; es muy raro encontrar valores atípicos.
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+OUTLIER:dato que se diferencia de forma extrema del resto de los valores en un conjunto de información.
