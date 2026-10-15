@@ -9,7 +9,6 @@ Repositorio de ejercicios prácticos, notebooks y material de clase de **Fundame
 
 ## 🧭 Filosofía del curso
 
-Todo el contenido gira en torno a un mismo axioma, repetido en distintas formas a lo largo de las diapositivas:
 
 > **"Garbage In, Garbage Out."** Si la recolección es deficiente, sesgada o incompleta, cualquier modelo de Inteligencia Artificial posterior fallará irremediablemente, sin importar qué tan sofisticado sea el algoritmo.
 
